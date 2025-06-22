@@ -22,8 +22,8 @@ export const PatronCard = ({
     <div className="border rounded-lg shadow-sm overflow-hidden">
       <div className="relative h-48 w-full">
         <Image 
-          src={photoUrl} 
-          alt={name} 
+          src={photoUrl || '/public/placeholder.jpg'} 
+          alt={name || 'Patron'} 
           fill
           className="object-cover"
         />
