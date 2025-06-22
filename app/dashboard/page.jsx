@@ -34,7 +34,7 @@ export default function Page() {
         </header>
       
  
-     <div className="grid auto-rows-min gap-4 md:grid-cols-5">
+     <div className="grid auto-rows-min mx-4 my-4 gap-4 md:grid-cols-5">
       {patronData.map((patron) => (
         <PatronCard 
           key={patron.id} 
